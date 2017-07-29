@@ -122,7 +122,7 @@ h6 {
 }
 
 header {
-  background-image: url'
+  background-image: url;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -140,7 +140,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: fantasy;
   font-style: italic;
-  font-size: 80px;
+  font-size: 40px;
   line-height: 22px;
   margin-bottom: 50px;
 }
@@ -154,7 +154,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
