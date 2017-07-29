@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family:'Playfair Display SC',
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+    position: relative;
+    background: #888;
+}
+  }
+  .flex-item{
+    flex-grow: 1;
+    float: right;
+    position: relative;
+    background: url('Untitled.jpg');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.container{
+    height: 60rem;
+
+}
+.fixed{
+    width: 400px;
+}
+#name{
+    margin-left: 300px;
+    margin-top:220px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC';
+}
+.firstName{
+    font-weight: lighter;
+    color: lightyellow;
+    font-size: 40px;
+    font-style: italic;
+}
+.lastName{
+    color: #fff;
+    font-size: 4rem;
+}
+.jumbotron{
+  float: right;
+  position: relative;
+  margin-top:-250px;
+  z-index: -1;
+  margin-left: 200px;
+}
