@@ -249,12 +249,9 @@ p.copyright {
     background-repeat: no-repeat;
     z-index: -1;
 }
-.container img{
-  display: flex;
-  height: 400px;
-  padding-top: -400px;
-  width: 300px;
-
+img{
+    width:400px;
+    height:300px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
@@ -313,11 +310,8 @@ body {
 }
 
 h1 {
-  margin: 40px 0;
   font-size: 30px;
-  font-weight: 300;
   text-align: center;
-  padding: 40px;
   font-family: fantasy;
   font-style: italic;
 }
