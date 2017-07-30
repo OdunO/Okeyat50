@@ -2,6 +2,8 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: black;
+
 }
 
 body,
@@ -18,6 +20,16 @@ h6 {
 
 .topnav {
     font-size: 14px;
+}
+
+.navbar-default {
+    background-color: #1f1b1b;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fcf8e3;
+    font-family: fantasy;
+        font-size: 16px;
 }
 
 .lead {
@@ -132,6 +144,7 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: black;
+  background-color: black;
 }
 header .intro-text {
   padding-top: 100px;
@@ -161,12 +174,13 @@ header .intro-text .intro-heading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 165px;
     margin-bottom: 25px;
     font-family: fantasy;
     font-style: italic;
-    font-size: 80px;
+    font-size: 150px;
     color: grey;
+    padding: 200px;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -367,7 +381,7 @@ cite:before {
   height: 360px;
   vertical-align: top;
   float: right;
-  background: url("images/img1.jpg")
+  background: url("images/img1.jpg");
 }
 
 #footer{
